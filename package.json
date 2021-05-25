@@ -4,6 +4,8 @@
   "description": "Curso de TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "npx eslint src/*.js",
+    "prepush": "npx eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/claudioonohara/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/claudioonohara/js-tdd-course#readme"
+  "homepage": "https://github.com/claudioonohara/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "husky": "^6.0.0"
+  }
 }

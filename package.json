@@ -9,7 +9,7 @@
   },
   "husky": {
     "hooks": {
-     "prepush": "npx eslint src/*.js"
+     "pre-push": "npx eslint src/*.js"
     }
    },
   "repository": {

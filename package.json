@@ -9,7 +9,7 @@
   },
   "husky": {
     "hooks": {
-     "pre-push": "echo \"Error: no test specified\" && exit 1"
+     "pre-commit": "echo \"Error: no test specified\" && exit 1"
     }
    },
   "repository": {
